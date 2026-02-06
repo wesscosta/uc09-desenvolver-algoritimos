@@ -42,3 +42,6 @@ print(*esporte, sep=", ")
 # print(esporte)
 
 print
+
+
+len(nome_lista) > 5
