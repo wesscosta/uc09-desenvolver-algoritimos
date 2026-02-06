@@ -40,3 +40,5 @@ print(*esporte, sep=", ")
 
 # esporte.clear()
 # print(esporte)
+
+print
