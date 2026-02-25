@@ -1,9 +1,12 @@
-# #lista -> Indice - Mutável - Ordenada - Permite duplicidade
-# # [também conhecidas como coleção ou array] 
+##############################################################
+# lista -> Indice - Mutável - Ordenada - Permite duplicidade
+# [também conhecidas como coleção ou array] 
+##############################################################
+
 # minha_lista = [1, 2, 3, 4, 5]
 
+#nome, sobrenome, idade, altura, peso
 
-# #nome, sobrenome, idade, altura, peso
 # nome=["aluno1", "aluno2", "aluno3", "aluno4", "aluno5","aluno6", "aluno7", "aluno8", "aluno9", "aluno10"]
 
 # sobrenome=["silva", "santos", "rodrigues", "almeida", "pereira","gomes", "lima", "carvalho", "ferreira", "rodrigues"]
@@ -18,40 +21,10 @@
 # print(nome)
 
 
-
-
-
-
-
-
-
-# #Dicionario -> Chave / Valor
-# minha_lista = {
-#         "nome": "Antonio",
-#         "sobrenome": "Silva",
-#         "idade": 30
-#     }
-
-# #nome, sobrenome, idade, altura, peso
-
-alunos = {
-    "aluno01":{
-        "nome": "Antonio",
-        "sobrenome": "Silva",
-        "idade": 30,
-        "altura": 1.70,
-        "peso": 70
-    },
-   "aluno02":{
-        "nome": "Maria",
-        "sobrenome": "Santos",
-        "idade": 25,
-        "altura": 1.65,
-        "peso": 60
-    }
-}
-print(alunos[0]["nome"])
-# print(alunos["aluno01"]["nome"])
+##############################################################
+# Dicionário -> Chave / Valor, Mutável - Não ordenada - Permite duplicidade
+# [também conhecida como 
+##############################################################
 
 # aluno01={
 #     "nome": "Antonio",
@@ -69,7 +42,6 @@ print(alunos[0]["nome"])
 # }
 
 
-
 # print(aluno01["nome"])
 
 # aluno01["nome"] = "João"
@@ -77,21 +49,56 @@ print(alunos[0]["nome"])
 # print(aluno01["nome"])
 
 
-# alunos = [
-#     {
+# #Dicionario -> Chave / Valor
+# minha_lista = {
+#         "nome": "Antonio",
+#         "sobrenome": "Silva",
+#         "idade": 30
+#     }
+
+# #nome, sobrenome, idade, altura, peso
+
+#################################
+# Dicionário dentro de Dicionário
+#################################
+
+# alunos = {
+#     "aluno01":{
 #         "nome": "Antonio",
 #         "sobrenome": "Silva",
 #         "idade": 30,
 #         "altura": 1.70,
 #         "peso": 70
 #     },
-#    {
+#    "aluno02":{
 #         "nome": "Maria",
 #         "sobrenome": "Santos",
 #         "idade": 25,
 #         "altura": 1.65,
 #         "peso": 60
 #     }
-# ]
+# }
+# print(alunos["aluno01"]["nome"])
 
-# print(alunos[0]["nome"])
+
+#################################
+# Dicionário dentro de Lista
+#################################
+
+alunos = [
+    {
+        "nome": "Antonio",
+        "sobrenome": "Silva",
+        "idade": 30,
+        "altura": 1.70,
+        "peso": 70
+    },
+   {
+        "nome": "Maria",
+        "sobrenome": "Santos",
+        "idade": 25,
+        "altura": 1.65,
+        "peso": 60
+    }
+]
+print(alunos[1]["sobrenome"])
