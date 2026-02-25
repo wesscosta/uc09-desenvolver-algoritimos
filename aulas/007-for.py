@@ -1,5 +1,16 @@
-#Laços de Repetição | Estrutura de Repetição | Loop
-# for
+"""
+Laço de Repetição(loop): for -> para cada elemento em uma sequência de elementos, faça algo
+
+O for pode percorrer qualquer objeto iterável:
+
+    Listas (list)
+    Tuplas (tuple)
+    Strings (str)
+    Dicionários (dict)
+    Conjuntos (set)
+    Objetos de range()
+"""
+
 
 itens = ["50", "cha", "Arroz", "Caixa", "Zebra","Café"]    
 
